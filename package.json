@@ -1,0 +1,44 @@
+{
+  "name": "donewithit",
+  "license": "0BSD",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
+  "dependencies": {
+    "@react-native-community/masked-view": "^0.1.11",
+    "@react-navigation/bottom-tabs": "^7.2.0",
+    "@react-navigation/native": "^7.0.14",
+    "@react-navigation/native-stack": "^6.11.0",
+    "apisauce": "^3.1.0",
+    "expo": "^52.0.23",
+    "expo-app-loading": "^2.1.1",
+    "expo-image-picker": "~16.0.3",
+    "expo-location": "~18.0.4",
+    "expo-notifications": "~0.29.13",
+    "expo-permissions": "^14.4.0",
+    "expo-secure-store": "~14.0.1",
+    "expo-splash-screen": "~0.29.21",
+    "expo-status-bar": "~2.0.0",
+    "formik": "^2.1.4",
+    "jwt-decode": "^4.0.0",
+    "lottie-react-native": "^7.2.2",
+    "react": "18.3.1",
+    "react-native": "^0.76.5",
+    "react-native-gesture-handler": "^2.21.2",
+    "react-native-progress": "^5.0.1",
+    "react-native-reanimated": "^3.16.6",
+    "react-native-safe-area-context": "^5.0.0",
+    "react-native-screens": "^4.4.0",
+    "react-native-vector-icons": "^10.2.0",
+    "yup": "^1.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}

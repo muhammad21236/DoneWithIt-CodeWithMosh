@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "DoneWithIt",
+    "slug": "DoneWithIt",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/splash.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./app/assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#e63c4b"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fd94fc4f-769a-4fb0-ad4a-ba0af0ba8248"
+      }
+    },
+    "owner": "modd"
+  }
+}
